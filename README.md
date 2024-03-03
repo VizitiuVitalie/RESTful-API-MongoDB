@@ -5,20 +5,24 @@ This is a basic API made with Express.js and MongoDB for managing posts. Users c
 ## Technologies Used
 
 - **Node.js**
-- **Express.js**
 - **MongoDB**
-- **Mongoose**
-- **Express-fileupload**
-- **uuid**
-- **fs**
-- **path**
 
 ## Features
 
-- **Create Post**: Users can create a new post by sending a POST request with post data and an optional image.
-- **Read Post**: Users can view all posts or a specific post by sending GET requests.
-- **Update Post**: Users can update an existing post by sending a PUT request with the updated post data.
-- **Delete Post**: Users can delete all posts or a specific post by sending a DELETE request with the post ID.
+   POST --> /posts 
+        Create a new post with an optional image
+   GET --> /posts
+        Get all posts
+   GET --> /posts/:id
+        Get specific post by id
+   PUT --> /posts
+        Update existing post
+   DELETE --> /posts
+        Delete all posts
+   DELETE --> /posts/:id
+        Delete specific post by id
+   GET image --> /static/fileName
+        Retrieve image by fileName(uuid+.jpg)
 
 ## Installation
 
@@ -39,6 +43,5 @@ This is a basic API made with Express.js and MongoDB for managing posts. Users c
 
 ## Usage
 
-- Ensure the server is running.
 - Use an HTTP client like Postman or cURL to send requests to the API endpoints.
 
