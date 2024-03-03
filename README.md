@@ -25,16 +25,16 @@ This is a simple RESTful API built with Express.js and MongoDB, designed to hand
    git clone https://github.com/VitaliyV444/RESTfull-API.git
    
 2. Install dependencies:
-   -cd RESTfull-API
-   -npm install
+   - cd RESTfull-API
+   - npm install
    
 3. Configure MongoDB:
    - Create a MongoDB Atlas account or set up a local MongoDB server.
    - Update the `DB_URL` variable in `index.js` with your MongoDB connection string.
 
 4. Start the server:
-   -npm start
-   -npm run dev (with nodemon usage)
+   - npm start
+   - npm run dev (with nodemon usage)
 
 ## Usage
 
