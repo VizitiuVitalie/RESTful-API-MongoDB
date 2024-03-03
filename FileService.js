@@ -8,7 +8,7 @@ class FileService {
       const fileUuid = uuid.v4();
       const fileName = fileUuid + ".jpg";
       const filePath = path.resolve(
-        "C:/Users/vital/OneDrive/Desktop/rest-api/static",
+        "C:/Users/vital/OneDrive/Desktop/rest-api/static", //here you need to create in main folder(rest-api) a new folder named 'static'.
         fileName
       );
 
