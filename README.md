@@ -25,7 +25,7 @@ This is a simple RESTful API built with Express.js and MongoDB, designed to hand
    git clone https://github.com/VitaliyV444/RESTfull-API.git
    
 2. Install dependencies:
-   cd rest-api-express-mongodb
+   cd RESTfull-API
    npm install
    
 3. Configure MongoDB:
