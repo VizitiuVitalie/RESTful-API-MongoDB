@@ -4,10 +4,13 @@ This is a simple RESTful API built with Express.js and MongoDB, designed to hand
 
 ## Technologies Used
 
+- **Node.js**: A JavaScript runtime environment for server-side execution.
 - **Express.js**: A fast, unopinionated, minimalist web framework for Node.js used to build the API endpoints and handle HTTP requests.
 - **MongoDB**: A NoSQL database used to store and manage post data. MongoDB provides flexibility and scalability for handling data in a JSON-like format.
 - **Mongoose**: An Object Data Modeling (ODM) library for MongoDB and Node.js, used to simplify interactions with the MongoDB database.
 - **Express-fileupload**: Middleware for Express.js used to handle file uploads, allowing users to upload images along with their posts.
+- **uuid**: A library for generating unique identifiers.
+- **fs**: A built-in Node.js module for interacting with the file system.
 
 ## Features
 
@@ -19,7 +22,7 @@ This is a simple RESTful API built with Express.js and MongoDB, designed to hand
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/rest-api-express-mongodb.git
+   git clone https://github.com/VitaliyV444/RESTfull-API.git
    
 2. Install dependencies:
    cd rest-api-express-mongodb
