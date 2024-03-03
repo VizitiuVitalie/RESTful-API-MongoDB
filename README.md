@@ -9,20 +9,28 @@ This is a basic API made with Express.js and MongoDB for managing posts. Users c
 
 ## Features
 
-  - POST --> /posts 
-        Create a new post with an optional image
-  - GET --> /posts
-        Get all posts
-  - GET --> /posts/:id
-        Get specific post by id
-  - PUT --> /posts
-        Update existing post
-  - DELETE --> /posts
-        Delete all posts
-  - DELETE --> /posts/:id
-        Delete specific post by id
-  - GET image --> /static/fileName
-        Retrieve image by fileName(uuid+.jpg)
+- `POST --> /posts`  
+  Create a new post with an optional image
+
+- `GET --> /posts`  
+  Get all posts
+
+- `GET --> /posts/:id`  
+  Get specific post by id
+
+- `PUT --> /posts`  
+  Update existing post
+
+- `DELETE --> /posts`  
+  Delete all posts
+
+- `DELETE --> /posts/:id`  
+  Delete specific post by id
+
+### Image Endpoint
+
+- `GET --> /static/fileName`  
+  Retrieve image by fileName (uuid+.jpg)
 
 ## Installation
 
