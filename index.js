@@ -6,7 +6,7 @@ import fileUpload from "express-fileupload";
 const PORT = 44444;
 
 export const EXTERNAL_URL = "http://localhost:44444";
-const DB_URL = `mongodb+srv://user:user228@cluster0.qzzujm7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
+const DB_URL = `your MongoDB cluster's link and user's password`;
 const app = express();
 
 app.use(express.json());
