@@ -16,7 +16,7 @@ class FileService {
 
       writeStream.write(fileData);
 
-      console.log("Содержимое файла:", fileName);
+      console.log("fileName:", fileName);
 
       writeStream.on("finish", () => {
         console.log("File saved successfully");
