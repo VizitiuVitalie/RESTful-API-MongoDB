@@ -1,6 +1,6 @@
 # REST API with Express.js and MongoDB
 
-RESTful api with Express.js and MongoDB.
+This is a basic API made with Express.js and MongoDB for managing posts. Users can do CRUD operations on posts using HTTP requests.
 
 ## Technologies Used
 
