@@ -11,6 +11,7 @@ This is a simple RESTful API built with Express.js and MongoDB, designed to hand
 - **Express-fileupload**: Middleware for Express.js used to handle file uploads, allowing users to upload images along with their posts.
 - **uuid**: A library for generating unique identifiers.
 - **fs**: A built-in Node.js module for interacting with the file system.
+- **path**: A built-in Node.js module for working with file paths.
 
 ## Features
 
