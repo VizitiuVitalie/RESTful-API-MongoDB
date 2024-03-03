@@ -16,9 +16,9 @@ This is a simple RESTful API built with Express.js and MongoDB, designed to hand
 ## Features
 
 - **Create Post**: Users can create a new post by sending a POST request with post data and an optional image.
-- **Read Post**: Users can retrieve all posts or a specific post by sending GET requests to the appropriate endpoints.
+- **Read Post**: Users can retrieve all posts or a specific post by sending a GET requests to the appropriate endpoints.
 - **Update Post**: Users can update an existing post by sending a PUT request with the updated post data.
-- **Delete Post**: Users can delete a post by sending a DELETE request with the post ID.
+- **Delete Post**: Users can delete all posts or a specific post by sending a DELETE request with the post ID.
 
 ## Installation
 
