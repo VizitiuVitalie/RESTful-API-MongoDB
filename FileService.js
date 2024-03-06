@@ -8,7 +8,7 @@ class FileService {
       const fileUuid = uuid.v4();
       const fileName = fileUuid + ".jpg";
       const filePath = path.resolve(
-        "C:/Users/vital/OneDrive/Desktop/RESTfull-API/static", //here you need to create in main folder(RESTfull-API) a new folder named 'static'.
+        "C:/Users/vital/OneDrive/Desktop/RESTful-API-MongoDB/static", //here you need to create in main folder(RESTful-API-MongoDB) a new folder named 'static'.
         fileName
       );
 
