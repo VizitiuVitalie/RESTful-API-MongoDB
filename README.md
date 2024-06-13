@@ -35,7 +35,7 @@ This is a basic API made with Express.js and MongoDB for managing posts. Users c
 ## Installation
 
 1. Clone the repository:
-   - git clone https://github.com/VitaliyV444/RESTful-API-MongoDB.git
+   - git clone https://github.com/VizitiuVitalie/RESTful-API-MongoDB.git
    
 2. Install dependencies:
    - cd RESTful-API-MongoDB
